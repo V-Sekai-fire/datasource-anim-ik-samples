@@ -8,7 +8,11 @@ The cases cover bone chains, arms and full avatars, with a retargeting demo scen
 
 ## Run
 
-    godot --path .
+    godot --path . -e
+
+The project has no main scene, so it opens in the editor. To run the retargeting demo directly:
+
+    godot --path . res://ik_samples/ik_retargeting_demo.tscn
 
 ## Licence
 
